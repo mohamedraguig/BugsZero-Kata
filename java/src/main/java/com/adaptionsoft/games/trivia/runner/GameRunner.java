@@ -7,6 +7,7 @@ import com.adaptionsoft.games.uglytrivia.Game;
 
 public class GameRunner {
 
+	// can be converted to a local variable inside playGame method
 	private static boolean notAWinner;
 
 	public static void main(String[] args) {
@@ -17,7 +18,7 @@ public class GameRunner {
 
 	public static void playGame(Random rand) {
 		Game aGame = new Game();
-
+		// unused return value of add method
 		aGame.add("Chet");
 		aGame.add("Pat");
 		aGame.add("Sue");
